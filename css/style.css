@@ -17,7 +17,7 @@
 
 .back-to-top {
     position: fixed;
-    right: 30px;
+    left: 30px;
     bottom: 30px;
     display: flex;
     width: 45px;
@@ -197,7 +197,7 @@
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: var(--bs-dark) !important;
+    color: var(--bs-light) !important;
     font-size: 16px;
     font-weight: 400;
     outline: none;
@@ -300,7 +300,8 @@
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-light) !important;
+        margin-top:3px;
+        /* background: var(--bs-light) !important; */
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -1179,3 +1180,59 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+/* Social media */
+.btn-square {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    background-color:white
+}
+
+/* Facebook */
+.fa-facebook {
+    color: #3473fd; 
+}
+
+/* WhatsApp */
+.fa-whatsapp {
+    color: #139a44;
+}
+
+/* TripAdvisor */
+.fa-tripadvisor {
+    color: #229269;
+}
+
+/* YouTube */
+.fa-youtube {
+    color: #ff0000;
+}
+
+/* WhatsApp Button Styling */
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's on top of other content */
+    text-decoration: none; /* Remove underline */
+}
+
+.whatsapp-button img {
+    width: 60px; /* Adjust this for size */
+    height: 60px; /* Ensures uniform scaling */
+    transition: transform 0.2s ease-in-out; /* Smooth scaling effect on hover */
+}
+
+.whatsapp-button img:hover {
+    transform: scale(1.1); /* Slightly larger on hover */
+}
