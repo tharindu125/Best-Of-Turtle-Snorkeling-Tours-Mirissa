@@ -280,7 +280,7 @@
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--bs-dark) !important;
+        color: var(--bs-light) !important;
     }
 
     .navbar-light .navbar-brand img {
@@ -1298,5 +1298,38 @@
     }
     100% {
         background-position: 0% 50%;
+    }
+}
+
+.nav-btn {
+    float: right !important;
+}
+
+@media (max-width: 1440px) and (min-width: 1150px) {
+    .navbar-brand h1 {
+        font-size: 20px !important;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .navbar-brand h1 {
+        font-size: 15px !important;
+    }
+
+    .navbar-collapse a {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 391px) {
+    .navbar-brand h1 {
+        font-size: 14px !important;
     }
 }
