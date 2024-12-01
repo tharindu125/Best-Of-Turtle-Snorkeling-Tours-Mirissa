@@ -571,6 +571,7 @@
     border-radius: 10px;
     background: var(--bs-light);
     transition: 0.5s;
+    min-height: 300px;
 
 }
 
@@ -743,6 +744,18 @@
 
 
 /*** Team Start ***/
+.team {
+    background: linear-gradient(rgba(67, 66, 66, 0.8), rgba(85, 83, 83, 0.8)), url(../img/carousel-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.team-item {
+    background-color: white;
+}
+
 .team .team-item .team-img {
     position: relative;
     overflow: hidden;
@@ -1235,4 +1248,37 @@
 
 .whatsapp-button img:hover {
     transform: scale(1.1); /* Slightly larger on hover */
+}
+
+.about {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: linear-gradient(45deg, rgb(0, 255, 8),rgb(0, 221, 255), rgb(255, 255, 0), rgb(244, 0, 0));
+    background-size: 300% 300%;
+    animation: gradiant 5s ease infinite;
+}
+
+.about_2 {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.feature {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: linear-gradient(45deg,  #00012a,rgb(0, 221, 255), #00012a, rgb(0, 221, 255));
+    background-size: 300% 300%;
+    animation: gradiant 5s ease infinite;
+}
+
+@keyframes gradiant {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
