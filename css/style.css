@@ -341,7 +341,7 @@
     background: var(--bs-primary);
     color: var(--bs-white);
     font-size: 30px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
@@ -358,7 +358,7 @@
     background: var(--bs-primary);
     color: var(--bs-white);
     font-size: 30px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
