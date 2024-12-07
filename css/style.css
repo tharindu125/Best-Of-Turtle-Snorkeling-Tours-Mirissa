@@ -454,7 +454,7 @@
 
 /*** Service Start ***/
 .service {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/carousel-3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -771,7 +771,7 @@
 
 /*** Team Start ***/
 .team {
-    background: linear-gradient(rgba(67, 66, 66, 0.8), rgba(85, 83, 83, 0.8)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(67, 66, 66, 0.8), rgba(85, 83, 83, 0.8)), url(../img/service-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
