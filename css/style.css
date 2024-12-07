@@ -454,7 +454,7 @@
 
 /*** Service Start ***/
 .service {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../img/Turtle1.jpg);
+    background: linear-gradient(rgba(140, 223, 248, 0.8), rgba(255, 255, 255, 0.7)), url(../img/Turtle1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -771,7 +771,7 @@
 
 /*** Team Start ***/
 .team {
-    background: linear-gradient(rgba(67, 66, 66, 0.8), rgba(85, 83, 83, 0.8)), url(../img/service-1.jpg);
+    background: linear-gradient(rgba(140, 223, 248, 0.8), rgba(85, 83, 83, 0.8)), url(../img/service-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1052,6 +1052,13 @@
 
 
 /*** Blog Start ***/
+.blog {
+    background: linear-gradient(rgba(0, 195, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/carousel-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .blog .blog-item .blog-img {
     position: relative;
     overflow: hidden;
@@ -1193,7 +1200,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/Under_Sea.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/Under_Sea.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
