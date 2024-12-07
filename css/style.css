@@ -568,8 +568,8 @@
 
 @media (max-width: 768px) {
     .about .about-img .about-img-inner {
-        width: 200px; /* Adjust the size as needed */
-        height: 200px; /* Maintain the aspect ratio */
+        width: 160px; /* Adjust the size as needed */
+        height: 160px; /* Maintain the aspect ratio */
         border-width: 5px; /* Adjust border width for a smaller size */
     }
 }
