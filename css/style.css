@@ -564,8 +564,16 @@
     border: 10px solid; 
     border-color: var(--bs-white) var(--bs-white) var(--bs-white) var(--bs-white);
     border-radius: 50%;
-
 }
+
+@media (max-width: 768px) {
+    .about .about-img .about-img-inner {
+        width: 200px; /* Adjust the size as needed */
+        height: 200px; /* Maintain the aspect ratio */
+        border-width: 5px; /* Adjust border width for a smaller size */
+    }
+}
+
 
 .about .about-img .about-experience {
     position: absolute;
